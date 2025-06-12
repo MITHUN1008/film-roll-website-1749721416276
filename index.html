@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FILM ROLL - The next dimension in storytelling">
+    <title>FILM ROLL</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f06, #4a90e2);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: rgba(0, 0, 0, 0.7);
+            position: relative;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            animation: fadeIn 2s;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            opacity: 0.8;
+        }
+        .description {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .cta {
+            margin: 20px 0;
+        }
+        .cta button {
+            background-color: #ff4081;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            outline: none;
+        }
+        .cta button:hover {
+            background-color: #e91e63;
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.7);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+            .description {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FILM ROLL</h1>
+    <h2>The next dimension in storytelling</h2>
+    <p class="description">கதை சொல்வதில் அடுத்த பரிமாணம்🔥<br> 
+    வெறும் கதை மட்டும் சொல்லாமல் உங்கள அந்த கதைக்குள்ளையே கொண்டு போகப் போகிறேன்</p>
+    <div class="cta">
+        <button onclick="subscribe()">Subscribe Now</button>
+    </div>
+</header>
+
+<footer>
+    <p>📽️ Subscribers: 1,230,000</p>
+    <p>Follow us for more amazing stories!</p>
+</footer>
+
+<script>
+    function subscribe() {
+        alert("Thank you for subscribing to FILM ROLL!");
+    }
+</script>
+
+</body>
+</html>
